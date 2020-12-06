@@ -15,7 +15,7 @@ Insert in your Markdown content...
 Option 1:
 
 ```
-{{< peertube vidcommons.org a547c41d-3f0e-4689-bb1c-44d533d16397 16by9 >}}
+{{< peertube vidcommons.org a547c41d-3f0e-4689-bb1c-44d533d16397 >}}
 ```
 
 Option 2:

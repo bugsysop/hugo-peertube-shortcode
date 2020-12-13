@@ -1,15 +1,15 @@
 {{ if .IsNamedParams -}}
 <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; height: 0; overflow: hidden;">
-<iframe
-    {{ with .Get "class" }}class="{{ . }}" {{ else }}style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"{{ end }} sandbox="allow-same-origin allow-scripts allow-popups"
-    src="https://{{ .Get "host" }}/videos/embed/{{ .Get "id" }}?{{ with .Get "title" }}title={{ . }}{{ else }}title=0{{ end }}&{{ with .Get "warning" }}warningTitle={{ . }}{{ else }}warningTitle=0{{ end }}{{ with .Get "subtitle" }}&subtitle={{ . }}{{ end }}" allowfullscreen>
+<iframe sandbox="allow-scripts allow-popups"
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
+    src="https://{{ .Get "host" }}/videos/embed/{{ .Get "id" }}?{{ with .Get "title" }}title={{ . }}{{ else }}title=0{{ end }}&{{ with .Get "warning" }}warningTitle={{ . }}{{ else }}warningTitle=0{{ end }}{{ with .Get "subtitle" }}&subtitle={{ . }}{{ end }}&peertubeLink=0" allowfullscreen>
 </iframe>
 </div>
 {{- else -}}
 <div style="position: relative; padding-bottom: 56.25%; margin-bottom: 1rem; height: 0; overflow: hidden;">
 <iframe
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" sandbox="allow-same-origin allow-scripts allow-popups"
-    src="https://{{ .Get 0 }}/videos/embed/{{ .Get 1 }}?title=0&warningTitle=0" title="Peertube Video" allowfullscreen>
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;"
+    src="https://{{ .Get 0 }}/videos/embed/{{ .Get 1 }}?title=0&warningTitle=0&peertubeLink=0" title="Peertube Video" allowfullscreen>
 </iframe>
 </div>
 {{- end }}

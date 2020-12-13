@@ -36,6 +36,12 @@ Give access to the complete set of options avaible for Peertube iframe.
 
 Note: The default options are _hard coded_, if you want du change, you have to modify the source.
 
+### Privacy
+
+**1)** Peertube by itself use absolutely no cookies, no trackers.
+
+**2)** The uses the BitTorrent P2P protocol to share bandwidth between users by default to help lower the load on the server induce that your IP address is being stored in the instance’s BitTorrent tracker as long as you download or watch the video For [more info](https://indymotion.fr/about/peertube#privacy) read this Peertube statement. 
+
 ### References
 
 - [Peertube](https://joinpeertube.org/)

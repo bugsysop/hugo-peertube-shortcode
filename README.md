@@ -23,7 +23,7 @@ Easy to use, but only default options.
 Give access to the complete set of options avaible for Peertube iframe.
 
 ```
-{{< peertube host="indymotion.fr" id="a11de1b8-dbb2-4cef-9b1d-3f01e0af8425" title=0 >}}
+{{< peertube host="indymotion.fr" id="a11de1b8-dbb2-4cef-9b1d-3f01e0af8425" title="0" >}}
 ```
 
 | Params     | Comments                                                                        | Default |

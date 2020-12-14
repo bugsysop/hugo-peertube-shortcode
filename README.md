@@ -1,6 +1,6 @@
 # Hugo Peertube Shortcode
 
-This is a shortcode for Hugo static site generator to include videos hosted on any Peertube instance. Peertube is a decentralized and federated video streaming and hosting platform: using  ActivityPub protocol for federation and P2P directly in the web browser for distributed downloading of data. 
+A shortcode for Hugo static site generator to include videos hosted on any Peertube instance. Peertube is a decentralized and federated video streaming and hosting platform: using  ActivityPub protocol for federation and P2P directly in the web browser for distributed downloading of data. 
 
 ### Install
 

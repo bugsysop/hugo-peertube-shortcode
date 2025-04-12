@@ -2,6 +2,8 @@
 
 A shortcode for Hugo static site generator to include videos hosted on any Peertube instance. Peertube is a decentralized and federated video streaming and hosting platform: using  ActivityPub protocol for federation and P2P directly in the web browser for distributed downloading of data. 
 
+Current version live now here: https://codeberg.org/tmprs/hugo-peertube-shortcode
+
 ### Install
 
 Just copy the `peertube.html` file in the `layouts/shortcodes/` directory at the _root_ of your Hugo site. You have to create the `layouts` and `shortcodes` directories if they does not exist. You can learn more about _shortcodes_ from [Hugo documentation](https://gohugo.io/content-management/shortcodes/).
